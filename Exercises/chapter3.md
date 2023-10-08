@@ -46,8 +46,6 @@ $$
 \end{split}\\
 \end{equation*}\\
 $$
-
-
 Since $TSS = \sum_{i=1}^{n} (Y_i-\bar{Y})^2 \\$
 $$
 \begin{align*}\\
