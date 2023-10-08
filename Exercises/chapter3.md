@@ -37,22 +37,22 @@ plug in $\bar{x}$ and ${\beta_0}$, we obtain $\hat{y} = \bar{y} - \hat{\beta_1}\
 Given that, $\hat{\beta_1} = \frac{\sum(X_i-\bar{X})(Y_i-\bar{Y})}{(Y_i-\bar{Y})^2}$, $\hat{\beta_0} = \bar{y} - \hat{\beta_1}\bar{x}$
 
 We obtain 
-$$
-\begin{align}\\
+$$\\
+\begin{aligned}\\
    RSS &= \sum_{i=1}^{n}(Y_i-\beta_0-\beta_1 X_i)^2\\
        &= \sum_{i=1}^{n}(Y_i-\bar{Y}+\hat{\beta_1}\bar{X}-\beta_1 X_i)^2 \\
        &= \sum_{i=1}^{n} \{(Y_i-\bar{Y})^2 + 2\hat{\beta_1}(Y_i-\bar{Y})(\bar{X}-X_i) + \hat{\beta_1}^2(X_i-\bar{X})^2 \} \\
-\end{align}\\
+\end{aligned}\\
 $$
 
 Since $TSS = \sum_{i=1}^{n} (Y_i-\bar{Y})^2 \\$
-$$
-\begin{align}\\
+$$\\
+\begin{aligned}\\
   TSS-RSS &= \sum_{i=1}^{n} \{2\hat{\beta_1}(Y_i-\bar{Y})(X_i-\bar{X}) - \hat{\beta_1}^2(X_i-\bar{X})^2 \} \\
           &= 2\frac{\sum_{i=1}^{n}(X_i-\bar{X})(Y_i-\bar{Y})}{\sum_{i=1}^{n}(X_i-\bar{X})^2}\cdot\sum_{i=1}^{n}(Y_i-\bar{Y})(X_i-\bar{X}) -\frac{\sum_{i=1}^{n}((X_i-\bar{X})(Y_i-\bar{Y}))^2}{\sum_{i=1}^{n}(X_i-\bar{X})^2}\\
           &=\frac{\sum_{i=1}^{n}((X_i-\bar{X})(Y_i-\bar{Y}))^2}{\sum_{i=1}^{n}(X_i-\bar{X})^2} \\
   \frac{TSS-RSS}{TSS} &= \frac{\sum_{i=1}^{n}((X_i-\bar{X})(Y_i-\bar{Y}))^2}{\sum_{i=1}^{n}(X_i-\bar{X})^2\cdot\sum_{i=1}^{n}(Y_i-\bar{Y})^2}\\
   % RSS = \sum_{i=1}^{n}(Y_i-\bar{Y}+\hat{\beta_1}\bar{X}-\beta_1 X_i)^2 \\  
   R^2 &= Corr(X,Y)^2\\
-\end{align}\\
+\end{aligned}\\
 $$
