@@ -41,10 +41,10 @@ Thus we can say this random generator is not giving fifth observation an equal p
 ## 3.
 (a)
 - Dividing the training set into k folds.
-- For i from 1 to k, use the i-th fold as the validation set and the rest folds as the training set. Using the traning set to select predictors and model(hype parameters), and use i-th fold (validation set) to predict the error of the model.
+- For i from 1 to k, use the i-th fold as the validation set and the rest folds as the training set. Using the traning set to select predictors and model(hype parameters), and use i-th fold (validation set) to predict MSE of the model.
 - For each validation set, we can obatain a MSE curve relative to hype parameters.
-- We take average of all bias of the same hype parameters.
-- We use the hype parameters that have the lowest bias/error to builde our model.
+- We take average of all MSE of the same hype parameters.
+- We use the hype parameters that have the lowest bias/error to build our model.
 
 (b)
 
