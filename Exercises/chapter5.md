@@ -25,7 +25,8 @@ To satisfy $\frac{\partial Var(Z)}{\partial \alpha} = 0$, we obtain $\alpha = \f
 (f) 0.6321389535670295
 
 (g) ![Alt text](images/chp5_q2_g.png)
- The curve monotonically decrease.
+
+ The curve monotonically decrease. It converges to $1-\frac{1}{e}$ at infinity.
 
 (h) The frequency of 5-th obeservation being chosen is 0.0089, lower than the expectation of 5-th observation showing up in a bootstrap sample. The event $X_{Bi} = X_j$ obeys Binomial Distribution $B(1, 0.01)$. According to Central Limit Theorem, 
 $$\\
